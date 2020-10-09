@@ -12,13 +12,13 @@ module.exports = {
       title: "橙立科技",
       logo: {
         alt: "橙立科技",
-        src: "img/logo.png",
+        src: "img/logo.svg",
       },
       items: [
         {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Docs",
+          to: "docs/frontend/config",
+          activeBasePath: "docs/frontend/",
+          label: "前端开发",
         },
         {
           href: "https://gitlab.com/signp/documents",
@@ -31,7 +31,7 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "文档",
           items: [
             {
               label: "Style Guide",
@@ -44,7 +44,7 @@ module.exports = {
           ],
         },
         {
-          title: "Community",
+          title: "资源",
           items: [
             {
               label: "Stack Overflow",
@@ -61,7 +61,7 @@ module.exports = {
           ],
         },
         {
-          title: "More",
+          title: "代码仓库",
           items: [
             {
               label: "GitLab",
@@ -71,6 +71,10 @@ module.exports = {
         },
       ],
       copyright: `Copyright © 2013-${new Date().getFullYear()} 橙视光标`,
+    },
+    prism: {
+      theme: require("prism-react-renderer/themes/vsDark"),
+      darkTheme: require("prism-react-renderer/themes/dracula"),
     },
   },
   presets: [

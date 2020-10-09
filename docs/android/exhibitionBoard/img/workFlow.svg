@@ -1,0 +1,360 @@
+<svg id="mermaid-1557969723577" width="100%" xmlns="http://www.w3.org/2000/svg" style="max-width: 1112.7230491638184px;" viewBox="0 0 1112.7230491638184 1669.4109497070312"><style>
+
+
+#mermaid-1557969723577 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  color: #333; }
+
+#mermaid-1557969723577 .node rect,
+#mermaid-1557969723577 .node circle,
+#mermaid-1557969723577 .node ellipse,
+#mermaid-1557969723577 .node polygon {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1557969723577 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1557969723577 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1557969723577 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1557969723577 .edgeLabel {
+  background-color: #e8e8e8; }
+
+#mermaid-1557969723577 .cluster rect {
+  fill: #ffffde !important;
+  stroke: #aaaa33 !important;
+  stroke-width: 1px !important; }
+
+#mermaid-1557969723577 .cluster text {
+  fill: #333; }
+
+#mermaid-1557969723577 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1557969723577 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1557969723577 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1557969723577 .actor-line {
+  stroke: grey; }
+
+#mermaid-1557969723577 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1557969723577 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1557969723577 #arrowhead {
+  fill: #333; }
+
+#mermaid-1557969723577 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1557969723577 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1557969723577 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1557969723577 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1557969723577 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1557969723577 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1557969723577 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1557969723577 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px; }
+
+#mermaid-1557969723577 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1557969723577 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1557969723577 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1557969723577 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1557969723577 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1557969723577 .section2 {
+  fill: #fff400; }
+
+#mermaid-1557969723577 .section1,
+#mermaid-1557969723577 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1557969723577 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1557969723577 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1557969723577 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1557969723577 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1557969723577 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px; }
+
+
+#mermaid-1557969723577 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+
+#mermaid-1557969723577 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1557969723577 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1557969723577 .task {
+  stroke-width: 2; }
+
+#mermaid-1557969723577 .taskText {
+  text-anchor: middle;
+  font-size: 11px; }
+
+#mermaid-1557969723577 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px; }
+
+#mermaid-1557969723577 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1557969723577 .taskText0,
+#mermaid-1557969723577 .taskText1,
+#mermaid-1557969723577 .taskText2,
+#mermaid-1557969723577 .taskText3 {
+  fill: white; }
+
+#mermaid-1557969723577 .task0,
+#mermaid-1557969723577 .task1,
+#mermaid-1557969723577 .task2,
+#mermaid-1557969723577 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1557969723577 .taskTextOutside0,
+#mermaid-1557969723577 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1557969723577 .taskTextOutside1,
+#mermaid-1557969723577 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1557969723577 .active0,
+#mermaid-1557969723577 .active1,
+#mermaid-1557969723577 .active2,
+#mermaid-1557969723577 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1557969723577 .activeText0,
+#mermaid-1557969723577 .activeText1,
+#mermaid-1557969723577 .activeText2,
+#mermaid-1557969723577 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1557969723577 .done0,
+#mermaid-1557969723577 .done1,
+#mermaid-1557969723577 .done2,
+#mermaid-1557969723577 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1557969723577 .doneText0,
+#mermaid-1557969723577 .doneText1,
+#mermaid-1557969723577 .doneText2,
+#mermaid-1557969723577 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1557969723577 .crit0,
+#mermaid-1557969723577 .crit1,
+#mermaid-1557969723577 .crit2,
+#mermaid-1557969723577 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1557969723577 .activeCrit0,
+#mermaid-1557969723577 .activeCrit1,
+#mermaid-1557969723577 .activeCrit2,
+#mermaid-1557969723577 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1557969723577 .doneCrit0,
+#mermaid-1557969723577 .doneCrit1,
+#mermaid-1557969723577 .doneCrit2,
+#mermaid-1557969723577 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1557969723577 .doneCritText0,
+#mermaid-1557969723577 .doneCritText1,
+#mermaid-1557969723577 .doneCritText2,
+#mermaid-1557969723577 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1557969723577 .activeCritText0,
+#mermaid-1557969723577 .activeCritText1,
+#mermaid-1557969723577 .activeCritText2,
+#mermaid-1557969723577 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1557969723577 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black; }
+
+#mermaid-1557969723577 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 10px; }
+
+#mermaid-1557969723577 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1557969723577 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1557969723577 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1557969723577 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1557969723577 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1557969723577 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1557969723577 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1557969723577 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1557969723577 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1557969723577 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1557969723577 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1557969723577 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1557969723577 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1557969723577 .commit-id,
+#mermaid-1557969723577 .commit-msg,
+#mermaid-1557969723577 .branch-label {
+  fill: lightgrey;
+  color: lightgrey; }
+</style><style>#mermaid-1557969723577 {
+    color: rgb(44, 62, 80);
+    font: normal normal 400 normal 16px / normal -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  }</style><g transform="translate(-12, -12)"><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath" style="opacity: 1;"><path class="path" d="M415.67422103881836,53.11232333384124L189.73125076293945,86L190.23125076293945,111.5" marker-end="url(#arrowhead1)" style="fill:none"></path><defs><marker id="arrowhead1" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M167.8137576613725,201.58250689843305L128.9375,259L128.9375,344.6500015258789" marker-end="url(#arrowhead2)" style="fill:none"></path><defs><marker id="arrowhead2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M226.67291728770758,187.55833347523185L358.5250015258789,259L359.0250015258789,295.00000152587893" marker-end="url(#arrowhead3)" style="fill:none"></path><defs><marker id="arrowhead3" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M359.0250015258789,436.2999984741208L358.5250015258789,471.3000030517578L358.5250015258789,563.0500030517578L358.5250015258789,654.8000030517578L358.5250015258789,787.1554718017578L358.5250015258789,919.5109405517578L358.5250015258789,1025.6609420776367L358.5250015258789,1131.8109436035156L585.0635487514328,1227.6333323520832" marker-end="url(#arrowhead4)" style="fill:none"></path><defs><marker id="arrowhead4" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M599.0360079955466,1292.0610140990618L503.3859405517578,1372.9109497070312L503.3859405517578,1408.4109497070312" marker-end="url(#arrowhead5)" style="fill:none"></path><defs><marker id="arrowhead5" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M679.4617927760232,1303.3350883274923L726.9652366638184,1372.9109497070312L726.9652366638184,1428.9109497070312L726.9652366638184,1484.9109497070312L726.9652366638184,1540.9109497070312L726.9652366638184,1596.9109497070312L743.4473795209612,1632.4109497070312" marker-end="url(#arrowhead6)" style="fill:none"></path><defs><marker id="arrowhead6" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M410.93255162670744,384.39244837329244L652.5093765258789,471.3000030517578L653.0093765258789,507.3000030517578" marker-end="url(#arrowhead7)" style="fill:none"></path><defs><marker id="arrowhead7" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M679.8717522866444,592.9376272909923L736.3753929138184,654.8000030517578L820.0313754741858,739.0541767413904" marker-end="url(#arrowhead8)" style="fill:none"></path><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M650.6247868162673,617.4154133421462L648.4476585388184,654.8000030517578L648.4476585388184,787.1554718017578L648.4476585388184,919.5109405517578L648.4476585388184,1025.6609420776367L648.4476585388184,1131.8109436035156L647.6581445781497,1170.5831506816646" marker-end="url(#arrowhead9)" style="fill:none"></path><defs><marker id="arrowhead9" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M614.9082267690175,581.6988532948964L459.8921890258789,654.8000030517578L473.1036988077017,766.6554718017578" marker-end="url(#arrowhead10)" style="fill:none"></path><defs><marker id="arrowhead10" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M488.0394218547726,766.6554718017578L556.3226585388184,654.8000030517578L556.3226585388184,563.0500030517578L556.3226585388184,471.3000030517578L556.3226585388184,365.1500015258789L556.3226585388184,259L556.3226585388184,167.25L556.3226585388184,86L526.6523288684887,61" marker-end="url(#arrowhead11)" style="fill:none"></path><defs><marker id="arrowhead11" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M882.0901803165451,704.6046342044846L889.7855491638184,654.8000030517578L889.7855491638184,563.0500030517578L889.7855491638184,471.3000030517578L889.7855491638184,365.1500015258789L889.7855491638184,259L889.7855491638184,167.25L889.7855491638184,86L588.9710960388184,50.6751780664479" marker-end="url(#arrowhead12)" style="fill:none"></path><defs><marker id="arrowhead12" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M868.2855491638182,884.510940551758L867.7855491638184,919.5109405517578L868.2855491638174,955.5109420776356" marker-end="url(#arrowhead13)" style="fill:none"></path><defs><marker id="arrowhead13" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M834.1187747506567,1062.644167664474L768.3753929138184,1131.8109436035156L688.0090550019318,1210.9340611054465" marker-end="url(#arrowhead14)" style="fill:none"></path><defs><marker id="arrowhead14" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M901.466162016705,1063.630326172993L961.7855491638184,1131.8109436035156L961.7855491638184,1231.8609466552734" marker-end="url(#arrowhead15)" style="fill:none"></path><defs><marker id="arrowhead15" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M961.7855491638184,1272.8609466552734L961.7855491638184,1372.9109497070312L961.7855491638184,1408.4109497070312" marker-end="url(#arrowhead16)" style="fill:none"></path><defs><marker id="arrowhead16" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M961.7855491638184,1449.4109497070312L961.7855491638184,1484.9109497070312L961.7855491638184,1520.4109497070312" marker-end="url(#arrowhead17)" style="fill:none"></path><defs><marker id="arrowhead17" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M915.1443312508719,1561.4109497070312L834.3753929138184,1596.9109497070312L782.767168862479,1632.4109497070312" marker-end="url(#arrowhead18)" style="fill:none"></path><defs><marker id="arrowhead18" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M978.624834878104,1561.4109497070312L1007.7855491638184,1596.9109497070312L1007.7855491638184,1632.4109497070312" marker-end="url(#arrowhead19)" style="fill:none"></path><defs><marker id="arrowhead19" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(128.9375,259)"><g transform="translate(-32,-10.5)" class="label"><foreignObject width="64" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">拒绝权限</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(358.5250015258789,259)"><g transform="translate(-32,-10.5)" class="label"><foreignObject width="64" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">同意权限</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(358.5250015258789,787.1554718017578)"><g transform="translate(-24,-10.5)" class="label"><foreignObject width="48" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">无网络</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(503.3859405517578,1372.9109497070312)"><g transform="translate(-56,-10.5)" class="label"><foreignObject width="112" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">本地文件不完整</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(726.9652366638184,1484.9109497070312)"><g transform="translate(-48,-10.5)" class="label"><foreignObject width="96" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">本地文件完整</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(652.5093765258789,471.3000030517578)"><g transform="translate(-24,-10.5)" class="label"><foreignObject width="48" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">有网络</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(736.3753929138184,654.8000030517578)"><g transform="translate(-24,-10.5)" class="label"><foreignObject width="48" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">有网络</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(648.4476585388184,919.5109405517578)"><g transform="translate(-24,-10.5)" class="label"><foreignObject width="48" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">无网络</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(459.8921890258789,654.8000030517578)"><g transform="translate(-65.734375,-10.5)" class="label"><foreignObject width="131.46875" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">有网络,设备未认证</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(556.3226585388184,365.1500015258789)"><g transform="translate(-87.2109375,-10.5)" class="label"><foreignObject width="174.421875" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">后台认证成功后,重启app</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(889.7855491638184,365.1500015258789)"><g transform="translate(-135.2109375,-10.5)" class="label"><foreignObject width="270.421875" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">需要升级,下载更新完成后自动重启app</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(867.7855491638184,919.5109405517578)"><g transform="translate(-53.4765625,-10.5)" class="label"><foreignObject width="106.953125" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">不需要升级app</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(768.3753929138184,1131.8109436035156)"><g transform="translate(-88,-10.5)" class="label"><foreignObject width="176" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">无网络或者基础数据存在</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(961.7855491638184,1131.8109436035156)"><g transform="translate(-80,-10.5)" class="label"><foreignObject width="160" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">有网络基础数据不存在</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(834.3753929138184,1596.9109497070312)"><g transform="translate(-32,-10.5)" class="label"><foreignObject width="64" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">解压完整</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(1007.7855491638184,1596.9109497070312)"><g transform="translate(-40,-10.5)" class="label"><foreignObject width="80" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">解压不完整</span></div></foreignObject></g></g></g><g class="nodes"><g class="node" style="opacity: 1;" id="start" transform="translate(502.32265853881836,40.5)"><rect rx="5" ry="5" x="-86.6484375" y="-20.5" width="173.296875" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-76.6484375,-10.5)"><foreignObject width="153.296875" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">进入app 显示app版本</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="auth" transform="translate(189.73125076293945,167.25)"><polygon points="56.25,0 112.5,-56.25 56.25,-112.5 0,-56.25" rx="5" ry="5" transform="translate(-56.25,56.25)"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-32,-10.5)"><foreignObject width="64" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">用户授权</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="init" transform="translate(128.9375,365.1500015258789)"><rect rx="5" ry="5" x="-108.9375" y="-20.5" width="217.875" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-98.9375,-10.5)"><foreignObject width="197.875" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">未授权,请手动开启相关权限</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="checkNetWork" transform="translate(358.5250015258789,365.1500015258789)"><polygon points="70.65,0 141.3,-70.65 70.65,-141.3 0,-70.65" rx="5" ry="5" transform="translate(-70.65,70.65)"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-48,-10.5)"><foreignObject width="96" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">检查网络情况</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="checkRes" transform="translate(644.3859405517578,1252.3609466552734)"><polygon points="85.05,0 170.1,-85.05 85.05,-170.1 0,-85.05" rx="5" ry="5" transform="translate(-85.05,85.05)"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-64,-10.5)"><foreignObject width="128" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">检查本地资源文件</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="showFileNotComplete" transform="translate(503.3859405517578,1428.9109497070312)"><rect rx="5" ry="5" x="-106" y="-20.5" width="212" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-96,-10.5)"><foreignObject width="192" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">本地文件不完整请联网再试</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="openServerAndGoMainPage" transform="translate(752.9652366638184,1652.9109497070312)"><rect rx="5" ry="5" x="-95.8828125" y="-20.5" width="191.765625" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-85.8828125,-10.5)"><foreignObject width="171.765625" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">开启httpServer进入首页</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="validDevice" transform="translate(652.5093765258789,563.0500030517578)"><polygon points="56.25,0 112.5,-56.25 56.25,-112.5 0,-56.25" rx="5" ry="5" transform="translate(-56.25,56.25)"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-32,-10.5)"><foreignObject width="64" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">认证设备</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="newCheckUpdate" transform="translate(867.7855491638184,787.1554718017578)"><polygon points="96.85546875,0 193.7109375,-96.85546875 96.85546875,-193.7109375 0,-96.85546875" rx="5" ry="5" transform="translate(-96.85546875,96.85546875)"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-77.1171875,-10.5)"><foreignObject width="154.234375" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">检查app是否需要升级</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="waitValid" transform="translate(475.5250015258789,787.1554718017578)"><rect rx="5" ry="5" x="-58" y="-20.5" width="116" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-48,-10.5)"><foreignObject width="96" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">等待设备认证</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="getData" transform="translate(867.7855491638184,1025.6609420776367)"><polygon points="70.65,0 141.3,-70.65 70.65,-141.3 0,-70.65" rx="5" ry="5" transform="translate(-70.65,70.65)"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-48,-10.5)"><foreignObject width="96" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">获取基础信息</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="downloadBasicInfo" transform="translate(961.7855491638184,1252.3609466552734)"><rect rx="5" ry="5" x="-58" y="-20.5" width="116" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-48,-10.5)"><foreignObject width="96" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">下载基础数据</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="unzip" transform="translate(961.7855491638184,1428.9109497070312)"><rect rx="5" ry="5" x="-36.5390625" y="-20.5" width="73.078125" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-26.5390625,-10.5)"><foreignObject width="53.078125" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">解压zip</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="checkZipCompltet" transform="translate(961.7855491638184,1540.9109497070312)"><rect rx="5" ry="5" x="-98" y="-20.5" width="196" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-88,-10.5)"><foreignObject width="176" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">检查解压后文件的完整性</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="unzipNotComplete" transform="translate(1007.7855491638184,1652.9109497070312)"><rect rx="5" ry="5" x="-108.9375" y="-20.5" width="217.875" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-98.9375,-10.5)"><foreignObject width="197.875" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">文件解压不完整,请重启再试</div></foreignObject></g></g></g></g></g></g></svg>
