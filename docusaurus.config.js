@@ -1,30 +1,28 @@
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  title: "橙立科技",
+  tagline: "工作文档",
+  url: "https://gitlab.com/signp/documents",
+  baseUrl: "/pages/documents/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "signp",
+  projectName: "documents",
   themeConfig: {
     navbar: {
-      title: "My Site",
+      title: "橙立科技",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "橙立科技",
+        src: "img/logo.png",
       },
       items: [
         {
           to: "docs/",
           activeBasePath: "docs",
           label: "Docs",
-          position: "left",
         },
-
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          href: "https://gitlab.com/signp/documents",
+          label: "GitLab",
           position: "right",
         },
       ],
@@ -66,17 +64,13 @@ module.exports = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "GitLab",
+              href: "https://gitlab.com/signp/documents",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2013-${new Date().getFullYear()} 橙视光标`,
     },
   },
   presets: [
@@ -85,9 +79,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://gitlab.com/signp/documents",
           showLastUpdateTime: true,
         },
         theme: {
