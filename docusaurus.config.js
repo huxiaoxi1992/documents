@@ -1,8 +1,8 @@
 module.exports = {
   title: "橙立科技",
   tagline: "工作文档",
-  url: "https://gitlab.com/signp/documents",
-  baseUrl: "/pages/documents/",
+  url: "https://github.com/huxiaoxi1992/documents",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
   organizationName: "signp",
@@ -21,8 +21,8 @@ module.exports = {
           label: "前端开发",
         },
         {
-          href: "https://gitlab.com/signp/documents",
-          label: "GitLab",
+          href: "https://github.com/huxiaoxi1992/documents",
+          label: "GitHub",
           position: "right",
         },
       ],
@@ -64,8 +64,8 @@ module.exports = {
           title: "代码仓库",
           items: [
             {
-              label: "GitLab",
-              href: "https://gitlab.com/signp/documents",
+              label: "GitHub",
+              href: "https://github.com/huxiaoxi1992/documents",
             },
           ],
         },
@@ -83,7 +83,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://gitlab.com/signp/documents",
+          editUrl: "https://github.com/huxiaoxi1992/documents",
           showLastUpdateTime: true,
         },
         theme: {
